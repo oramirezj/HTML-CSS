@@ -1,0 +1,227 @@
+/************************************** TAG ***************************************************/
+
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    line-height: 2;
+}
+@media (min-width: 375px) {
+    h1 {
+        margin: 0 auto;
+        font-size: 4rem;
+    }
+}
+@media (min-width: 768px) {
+    h1 {
+        font-size: 5.625rem;
+    }
+}
+@media (min-width: 1280px) {
+    h1 {
+        font-size: 7.5rem;
+    }
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+a {
+    color: #11999E;
+}
+hr {
+    border-color: lightgrey;
+    border-style: dotted none none none;
+    border-width: 0.8rem;
+    width: 5rem;
+    margin: 5rem auto;
+}
+p {
+    line-height: 1.8;
+}
+
+/************************************** CLASS *************************************************/
+.top-container {
+    background-color: #E3FDFD;
+    position: relative;
+    padding-top: 50px;
+}
+.mountain-img {
+
+}
+@media (min-width: 375px) {
+    .mountain-img{
+        width: 80%;
+    }
+}
+@media (min-width: 1280px) {
+    .mountain-img{
+        width: 50%;
+    }
+}
+.b-cloud {
+    display: flex;
+}
+@media (min-width: 375px) {
+    .b-cloud{
+        width: 7rem;
+        margin-left: 20px;
+    }
+}
+@media (min-width: 768px) {
+    .b-cloud{
+        width: 10rem;
+        margin-left: 60px;
+    }
+}
+@media (min-width: 1280px) {
+    .b-cloud{
+        margin-left: 150px;
+        width: 14rem;
+    }
+}
+.u-cloud {
+    display: flex;
+}
+@media (min-width: 150px) {
+    .u-cloud{
+        position: absolute;
+        right: 15px;
+        top:40px;
+    }
+}
+@media (min-width: 375px) {
+    .u-cloud{
+        width: 7rem;
+        position: absolute;
+        right: 30px;
+        top: 40px;
+    }
+}
+@media (min-width: 768px) {
+    .u-cloud{
+        width: 10rem;
+        position: absolute;
+        right: 50px;
+    }
+}
+@media (min-width: 980px) {
+    .u-cloud{
+        right: 70px;
+    }
+}
+@media (min-width: 1280px) {
+    .u-cloud{
+        right: 150px;
+    }
+}
+@media (min-width: 1350px) {
+    .u-cloud{
+        right: 350px;
+    }
+}
+.t-underline {
+    text-decoration: underline;
+}
+.skill-row {
+    margin: 5rem auto 5rem auto;
+    width: 40%;
+    text-align: left;
+    height: auto;
+}
+.profile {
+    margin: 0 auto;
+    width: 30%;
+}
+@media (min-width: 375px) {
+    .profile {
+        width: 85%;
+    }
+}
+.skill-img1 {
+    width: 250px;
+    float: left;
+    margin-right: 30px;
+}
+.skill-img2 {
+        width: 250px;
+        float: right;
+        margin-left: 30px;
+}
+.logo-utel {
+        width: 40px;
+        height: 20px;
+        position: relative;
+        top: 6px;
+        margin-left: 5px;
+}
+.middle-container {
+    margin: 100px 0;
+}
+.my-picture {
+    width: 10rem;
+}
+.contact-me{
+    margin: 100px auto;
+    padding: 10px;
+}
+.contact-message{
+    width: 45%;
+    margin: 20px auto;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+.footer {
+    background-color: #66BFBF;
+    height: 10rem;
+}
+.footer-link {
+    color: #E3FDFD;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.footer-name {
+    color: #E3FDFD;
+}
+.flaticon {
+    font-size: 0.8rem;
+    color: #E3FDFD;
+    margin-bottom: 0;
+    text-decoration: none;
+}
